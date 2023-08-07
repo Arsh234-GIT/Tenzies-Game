@@ -1,4 +1,4 @@
-{  "homepage": "https://github.com/Arsh234-GIT/Tenzies-Game.git",
+{  
   "name": "tenzies-game",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+   
   },
   "dependencies": {
     "react": "^18.2.0",
