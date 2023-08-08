@@ -116,3 +116,37 @@ main {
 .roll-dice:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
+
+
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .dice-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .die-face {
+    height: 40px;
+    width: 40px;
+  }
+
+  .die-num {
+    font-size: 1.5rem;
+  }
+
+  .roll-dice {
+    height: 40px;
+    width: 120px;
+    font-size: 1rem;
+  }
+}
